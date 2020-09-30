@@ -31,7 +31,7 @@ const About = () => {
         <address>
           <p><i className="icon-home icon" /> Arya College, Kukas</p>
           <p><i className="icon-globe_black icon" /> https://connect2start.co</p>
-          <p><i className="icon-mail icon" /> connect2start@gmail.com</p>
+          <p><i className="icon-mail icon" /> mail@connect2start.com</p>
         </address>
         <br />
         

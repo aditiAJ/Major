@@ -55,40 +55,40 @@ const Startup = () => {
     return ( <>
 
 <div style={{"marginLeft":"450px","marginTop":"50px"}}>
-<h3 style={{"marginLeft":"60px"}}><strong>Create Your Account</strong></h3>
+<h3 style={{"marginLeft":"60px"}}><strong>Create Startup Account</strong></h3>
 <form className="customform"onSubmit={uploads}>
 <div style={{"width":"50%" ,"marginTop":"30px"}}>
 <label htmlFor="#" className='s-12 l-4'>Name</label>
-<input type="text" value={name} placeholder="First Name" required onChange={e=>{setname(e.target.value)}}/>
+<input type="text" value={name} placeholder="Startup Name" required onChange={e=>{setname(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Year of Foundation</label>
-<input type="text" value={year} required placeholder="0/1/2" onChange={e=>{setyear(e.target.value)}}/>
+<input type="text" value={year} required placeholder="DD/MM/YYYY" onChange={e=>{setyear(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Employes</label>
-<input type="text" value={employe} placeholder="10/20" required onChange={e=>{setemp(e.target.value)}}/>
+<input type="text" value={employe} placeholder="Number of Employees" required onChange={e=>{setemp(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>Logo and Images of Employes</label>
+<label htmlFor="#" className='s-12 l-4'>Logo and Images of Employees</label>
 <input type="file" name="myFiles" multiple onChange={onchanges}/>
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Domain of Working</label>
-<input type="text" value={domain} placeholder="web/app/marketing" required onChange={e=>{setdomain(e.target.value)}}/>
+<input type="text" value={domain} placeholder="Webs, Apps, Medical, Marketing" required onChange={e=>{setdomain(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Social Media</label>
-<input type="text" value={link} placeholder="f@gmail.com" required onChange={e=>{setlink(e.target.value)}}/>
+<input type="text" value={link} placeholder="Link to linkedIn" required onChange={e=>{setlink(e.target.value)}}/>
 </div>
 
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Location</label>
-<input type="text" value={locations} placeholder="Delhi" required onChange={e=>{setlocation(e.target.value)}}/>
+<input type="text" value={locations} placeholder="Headquarters" required onChange={e=>{setlocation(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>BIO</label>
-<input type="text" value={bio} placeholder="we arr.........." required onChange={e=>{setbio(e.target.value)}}/>
+<input type="text" value={bio} placeholder="Brief about your organization" required onChange={e=>{setbio(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Email</label>
@@ -101,7 +101,7 @@ const Startup = () => {
 
 <div style={{"width":"50%"}}>
 
-<button type="submit">Submit Button</button>
+<button type="submit">Submit</button>
 
 </div>
 

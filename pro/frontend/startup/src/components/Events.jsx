@@ -59,10 +59,10 @@ const Events = () => {
                          <div className="content-block margin-bottom">
                         <img src={`${baseurl}${d._id}_0.jpg`} alt="" className="c" style={{"width":"150px"}}/>
                    <h3>{d.name}</h3>
-                   <p>{d.story}.
+                   <p>{d.story}
                    </p>
 
-                   <button onClick={()=>{reg(d._id,d.name)}}>REGISTER HERE</button>
+                   <button onClick={()=>{reg(d._id,d.name)}}>Reserve your slot</button>
                 </div>
                 </div>
                      ))}

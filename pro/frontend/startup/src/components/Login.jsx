@@ -48,7 +48,7 @@ const Login = () => {
 
 
 <div style={{"marginLeft":"450px","marginTop":"200px"}}>
-<h3 style={{"marginLeft":"60px"}}><strong>Welcome Buddy!!</strong></h3>
+<h3 style={{"marginLeft":"170px"}}><strong>WELCOME !</strong></h3>
                     <form className="customform">
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Email</label>
@@ -61,15 +61,15 @@ const Login = () => {
 </div>
 <div style={{"width":"50%"}}>
 
-<button type="submit" onClick={upload}>Submit Button</button>
+<button type="submit" onClick={upload}>Submit</button>
 
 </div>
 
 </form>
-<p style={{"marginLeft":"160px"}}>DON'T HAVE AN ACCOUNT??</p>
-<p style={{"marginLeft":"160px"}}><Link to="/Investor">Register as Investor??</Link></p>
-<p style={{"marginLeft":"160px"}}><Link to="/Startup">Register your Startup??</Link></p>
-<p style={{"marginLeft":"160px"}}><Link to="/Learner">Register as Learner??</Link></p>
+<p style={{"marginLeft":"160px"}}>DON'T HAVE AN ACCOUNT?</p>
+<p style={{"marginLeft":"180px"}}><Link to="/Investor">Register as Investor?</Link></p>
+<p style={{"marginLeft":"180px"}}><Link to="/Startup">Register your Startup?</Link></p>
+<p style={{"marginLeft":"180px"}}><Link to="/Learner">Register as Learner?</Link></p>
 </div>
 
 

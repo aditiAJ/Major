@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"stratup.eventreg"}],"uuid":"ca246a5beadb4df394a3fde96944bef3","collectionName":"eventreg"}

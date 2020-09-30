@@ -63,7 +63,7 @@ const Internship = () => {
                         
                         
                         <h3 style={{"marginTop":"10px"}}>{d.name}</h3>
-                   <p>{d.story}.
+                   <p>{d.story}
                    </p>
                     
                     

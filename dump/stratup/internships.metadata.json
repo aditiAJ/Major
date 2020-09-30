@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"stratup.internships"}],"uuid":"56fc0a6a8b77485c8c8273452cb40427","collectionName":"internships"}

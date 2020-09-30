@@ -63,14 +63,14 @@ const Startup = () => {
 </div>
 <div style={{"width":"50%"}}>
 <label htmlFor="#" className='s-12 l-4'>Year of Foundation</label>
-<input type="text" value={year} required placeholder="DD/MM/YYYY" onChange={e=>{setyear(e.target.value)}}/>
+<input type="text" value={year} required placeholder="YYYY" onChange={e=>{setyear(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>Employes</label>
+<label htmlFor="#" className='s-12 l-4'>Employees</label>
 <input type="text" value={employe} placeholder="Number of Employees" required onChange={e=>{setemp(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>Logo and Images of Employees</label>
+<label htmlFor="#" className='s-12 l-4'>Logo and Images of Founders</label>
 <input type="file" name="myFiles" multiple onChange={onchanges}/>
 </div>
 <div style={{"width":"50%"}}>

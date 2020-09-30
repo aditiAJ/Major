@@ -77,7 +77,7 @@ const changemee=()=>{
 <div id="first-block">
   <div className="line">
     <h2>INVESTERS</h2>
-    <p className="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <p className="subtitile">Investors to give helping hand towards your dream
     </p>
     <div className="margin">
     {post.slice(0,end).map((d,index)=>(
@@ -97,7 +97,7 @@ const changemee=()=>{
 <div id="first-block">
   <div className="line">
     <h2>StartUps</h2>
-    <p className="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <p className="subtitile">Startups you may look at... Tap to know more...
     </p>
     <div className="margin">
     {learner.slice(0,endd).map((d,index)=>(

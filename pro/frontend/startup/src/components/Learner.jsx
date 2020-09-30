@@ -59,7 +59,7 @@ const Learner = () => {
 <h3 style={{"marginLeft":"60px"}}><strong>Create Your Account</strong></h3>
 <form className="customform" onSubmit={upload}>
 <div style={{"width":"50%" ,"marginTop":"30px"}}>
-<label htmlFor="#" className='s-12 l-4'>Name</label>
+<label htmlFor="#" className='s-12 l-4'>First Name</label>
 <input type="text" value={name} placeholder="First Name" required onChange={e=>{setname(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
@@ -67,7 +67,7 @@ const Learner = () => {
 <input type="text" value={lastname}  placeholder="Last Name" onChange={e=>{setlname(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>DOB</label>
+<label htmlFor="#" className='s-12 l-4'>Date Of Birth</label>
 <input type="date" value={dob} required onChange={e=>{setdob(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
@@ -75,7 +75,7 @@ const Learner = () => {
 <input type="text" value={skils} required onChange={e=>{setskill(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>Degree</label>
+<label htmlFor="#" className='s-12 l-4'>Highest Qualification</label>
 <input type="text" value={degree} required placeholder="B-TECH" onChange={e=>{setdegree(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
@@ -95,16 +95,16 @@ const Learner = () => {
 <input type="tel"placeholder="123-345-456-0" value={no} required onChange={e=>{setno(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>Image of Candidate</label>
+<label htmlFor="#" className='s-12 l-4'>Bio Photo</label>
 <input type="file" name="myFiles" onChange={onchange} required />
 </div>
 <div style={{"width":"50%"}}>
-<label htmlFor="#" className='s-12 l-4'>Any Experience</label>
+<label htmlFor="#" className='s-12 l-4'>Any Experience?</label>
 <input type="text" placeholder="Experience" value={exp} required onChange={e=>{setexp(e.target.value)}}/>
 </div>
 <div style={{"width":"50%"}}>
 
-<button type="submit" >Submit Button</button>
+<button type="submit" >Submit</button>
 
 </div>
 

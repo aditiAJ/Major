@@ -83,7 +83,7 @@ const ShowStartup = () => {
 <div id="third-block">
   <div className="line">
     <h2>Teammates</h2>
-    <p className="subtitile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    <p className="subtitile">The stars behind the idea
     </p>
     <div className="margin">
       <div className="s-12 m-6 l-3">
@@ -93,7 +93,7 @@ const ShowStartup = () => {
       </div>
       <div className="s-12 m-6 l-3">
       <img src={`${baseurl}${startup._id}_1_startup.jpg`} style={{"border":"5px solid","height":"200px","width":"250px"}} alt="" />    
-        <p className="subtitile">COFUNDER
+        <p className="subtitile">COFOUNDER
         </p>
       </div>
       <div className="s-12 m-6 l-3">
@@ -105,7 +105,7 @@ const ShowStartup = () => {
     </div>
   </div>
 </div>
-<h2 style={{"textAlign":"center"}}>THANKS FOR VISITING USSS!!!!!!!!!!!!!!!!!!!!!!!!!</h2>
+<h2 style={{"textAlign":"center"}}>THANKS FOR VISITING US! HAVE A GREAT DAY</h2>
     </Base>
     :<h2>loding</h2>}
 

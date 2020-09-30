@@ -15,11 +15,10 @@ const About = () => {
       
     </p>
     <h2 style={{"marginTop":"80px"}}>ABOUT US</h2>
-    <p className="s-12 m-12 l-8 center">We have 
+    <p className="s-12 m-12 l-8 center">Connect2Start is driven by the idea that the business of building startups grows bigger and better when work as a community. We have started the journey in year 2019 and continuing towards building a stronger community of experienced people. 
     </p>
     <h2 style={{"marginTop":"100px"}}>OUR PURPOSE</h2>
-    <p className="s-12 m-12 l-8 center">Imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-    Imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius
+    <p className="s-12 m-12 l-8 center">The purpose is to serve an interactive platform for startups prevailing at grass-root level. India has started a journey towards #AtmanirbharBharat by building a community where investors, startups, explorers may meet and discuss their journey. The aim is to target those amzing startups which are less popular but are providing best services to the end customers.
     </p>
   </div>
 </div>

@@ -36,7 +36,7 @@ const Nave = () => {
               <ul className="top-ul chevron">
                 <li><Link to="/Feedback">Feedback</Link>
                 </li>
-                <li><Link to="/Feature">Wants to Featured</Link>
+                <li><Link to="/Feature">Get Featured</Link>
                 </li>
                 <li><Link to="/About">About Us</Link>
                 </li>
